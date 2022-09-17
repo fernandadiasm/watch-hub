@@ -1,4 +1,4 @@
-# Game hub
+# Watch hub
 
 ![preview](./.github/preview.png)
 
