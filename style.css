@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
 }
 
-/*retira os pontinhos das listas*/
 ul {
     list-style: none;
 }
@@ -15,11 +16,6 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-color: #121214;
-}
-
-body * {
-    font-family: 'Inter', sans-serif;
-    line-height: 160%;
 }
 
 header {
@@ -35,7 +31,6 @@ header div {
     border-radius: 100%;
     display: flex;
     padding: 4px;
-
     transition: transform .5s;
     animation: fromtop .3s .2s backwards;
 }
@@ -44,15 +39,13 @@ header div:hover {
     transform: scale(1.1)
 }
 
-header div img{
-    width:100%;
+header div img {
+    width: 100%;
     border-radius: 50%;
 }
 
-
-/*centraliza*/
 main {
-    max-width: 580px;
+    max-width: 685px;
     width: 90%;
     margin: auto;
     display: grid;
@@ -60,8 +53,13 @@ main {
     margin-top: 32px;
 }
 
+@media (min-width: 400px) and (max-width: 1024px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
-/*adiciona o bg das sessões*/
 section {
     color: white;
     background: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
@@ -70,73 +68,70 @@ section {
     animation: frombottom .7s backwards;
 }
 
-section div {
+.container {
     background-color: #262629;
     padding: 32px;
     border-radius: 8px;
-}
-
-section h2 {
     letter-spacing: -0.47px;
 }
 
-section p {
+.container p {
     letter-spacing: -0.18px;
     color: #C1C1C1;
 }
 
-/* listinha para o lado*/
-section ul {
+.container ul {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     margin-top: 24px;
 }
 
-section ul li:hover {
+@media (min-width: 400px) and (max-width: 1024px) {
+    .container ul {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+.container ul li:hover {
     transform: scale(1.1)
 }
 
-section ul li {
+.container ul li {
     transition: transform .3s;
 }
 
-/*formato dos ícones*/
-.movies-list img {
+.container-social ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 24px;
+    justify-content: center;
+}
+
+
+.list img {
     width: 90px;
     border-radius: 8px;
 }
 
-.series-list img {
-    width: 90px;
-    border-radius: 8px;
-}
+/* ------------------------- ANIMATION -------------------------------------*/
 
-.animes-list img {
-    width: 90px;
-    border-radius: 8px;
-}
-
-.social-list img {
-    width: 90px;
-    border-radius: 8px;
-}
-
-/*animation*/
-
-main section:nth-child(1) {
+main .container:nth-child(1) {
     animation-delay: 0;
 }
 
-main section:nth-child(2) {
+main .container:nth-child(2) {
     animation-delay: .4s;
 }
 
-main section:nth-child(3) {
+main .container:nth-child(3) {
     animation-delay: .8s;
 }
 
-main section:nth-child(4) {
+main .container:nth-child(4) {
     animation-delay: .12s;
 }
 
