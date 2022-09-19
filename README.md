@@ -19,7 +19,7 @@ Criar um gabe hub: um site centralizador de links, no estilo Linktree, feito esp
 **Fernanda Dias**
 
 * Github: [@fernandadiasm](https://github.com/fernandadiasm)
-* Linkedin: [@fernandadias](https://linkedin.com/in/fernandadias.bio)
+* Linkedin: [@fernandadias](https://www.linkedin.com/in/fernandadiasbio/)
 * Instagram:[@ferandadias](https://instagram.com/ferandadias)
 
 
