@@ -5,7 +5,7 @@
 
 
 ## Objetivo do projeto
-Criar um gabe hub: um site centralizador de links, no estilo Linktree, feito especialmente para gamers.
+Criar um Watch hub: um site centralizador de links, no estilo Linktree, feito especialmente para pessoas que amam filmes e séries.
 
 
 [🔗 É possível acessar o site clicando aqui! 💜](https://fernandadiasm.github.io/watch-hub/)
